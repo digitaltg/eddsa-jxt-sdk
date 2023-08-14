@@ -412,13 +412,13 @@ describe('Crypto', function () {
 
   it('should verify the package', async function () {
     const result = await verify(SIGNED_TEST_PAYLOAD)
-    expect(result).to.be.true
+    expect(result.verified).to.be.true
   })
 
   it('should sign and verify the package', async function () {
     const signed = await sign(TEST_PAYLOAD, mockKeyPair)
     const result = await verify(signed)
-    expect(result).to.be.true
+    expect(result.verified).to.be.true
   })
 })
 
