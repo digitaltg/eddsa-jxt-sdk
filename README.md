@@ -1,3 +1,14 @@
+# [Important] This is a modified version of the eddsa-jxt-sdk from path ckeck
+We add feature like:
+[x] update: document loader
+[x] Using module convert to module
+[x] Add mocha options file to have default timeout
+[x] Add: try http when https failed in case of did content resolution
+[x] Add allow unsecure document content grabbing
+[x] Update clean console.log from getUrl
+[x] Add https not handle in documentLoader
+[x] Fixed: failed tests due to verification global object returning
+
 # Verifiable QR SDK for EDDSA on JSON-XT Credentials
 
 JavaScript Implementation of W3C Verifiable QR Credentials with EDDSA and minimization to a QR code with [JSON-XT](https://jsonxt.io/). 
