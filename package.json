@@ -1,13 +1,13 @@
 {
-  "name": "@pathcheck/eddsa-jxt-sdk",
-  "version": "0.0.3",
+  "name": "@digitaltg/eddsa-jxt-sdk",
+  "version": "1.0.0",
   "description": "Verifiable QR SDK for W3C Vaccination Credentials with JSON-XT",
   "scripts": {
     "test": "mocha",
     "keys": "node scripts/generateKeys.js",
     "webpack": "webpack --config webpack.config.js"
   },
-  "author": "Vitor Pamplona",
+  "author": "Vitor Pamplona (Owner) | Y. Maxime KAYI [ATD] (Maintener)",
   "license": "GPL-3.0-only",
   "files": [
     "lib/**/*.js",
