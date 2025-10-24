@@ -8,7 +8,7 @@ module.exports = {
     filename: 'eddsa-jxt-sdk.min.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'EDDSA_JXT',
-    libraryTarget: 'umd',
+    libraryTarget: 'node', // "umd was the value"
   },
   optimization: {
     minimize: false
